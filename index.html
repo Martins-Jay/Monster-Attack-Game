@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monster vs Player Game</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/script.js" defer ></script> //using DEFER ensures that the script file dosn't start execution until our HTML is done parsing. 
+</head>
+<body>
+  <section id="healthSection">
+    <h2>PLAYER HEALTH<span class="bonus_life"> 1 </span></h2>
+    <progress id="player-health" max="100" value="100">100%</progress>
+
+    <h2>MONSTER HEALTH</h2>
+    <progress id="monster-health" max="100" value="100">100%</progress>
+  </section>
+
+  <section id="btn_section">
+    <button id="player_attack_btn">ATTACK</button>
+    <button id="player_strong_attack_btn">STRONG ATTACK</button>
+    <button id="player_heal_btn">HEAL</button>
+    <section id="log_btn">SHOW LOG</section>
+  </section>
+</body>
+</html>
