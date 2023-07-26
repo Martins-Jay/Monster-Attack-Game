@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,500&display=swap');
+
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+#healthSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 30%;
+  margin: 30px auto;
+  padding: 40px 0;
+  background: white;
+  color: black;
+}
+
+progress{
+  width: 70%;
+  height: 32px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid orangered;
+  margin-top: -10px;
+}
+
+/* the ::-webkit-progress-bar represents the unfilled portion of the bar. more like the background color */
+progress[value]::-webkit-progress-bar,
+progress[value]{
+  background-color: rgb(240, 240, 240);
+  border-radius: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.335) inset;
+}
+
+progress[value]::-webkit-progress-value,
+progress[value]{
+  background-color: orangered;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: orangered;
+  transition: all 0.2s ease-out;
+}
+
+#btn_section{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 30%;
+  margin: 0 auto;
+  height: 250px;
+}
+
+button{
+  font: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  width: 90%;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: rgb(16, 25, 70);
+  color: white;
+  cursor: pointer;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:hover,
+button:active{
+  background-color: blue;
+  border-color: blue;
+  transition: all .2s ease;
+}
+
+#bonus_life{
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: .2px 8px;
+  margin-left: 8px;
+  background-color: rgb(92, 87, 87);
+  color: whitesmoke;
+}
