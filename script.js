@@ -47,7 +47,7 @@ function increasePlayerHealth(playerHealValue) {
 
 function winCondition() {
   if(currentPlayerHealth <= 0 && hasBonusLife ) {
-    hasBonusLife = false;   //
+    hasBonusLife = false;   //To be continued later. Lecture 88.
 
   }
 
