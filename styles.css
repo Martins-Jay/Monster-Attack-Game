@@ -42,14 +42,12 @@ progress{
 progress[value]::-webkit-progress-bar,
 progress[value]{
   background-color: rgb(240, 240, 240);
-  border-radius: 30px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.335) inset;
 }
 
 progress[value]::-webkit-progress-value,
 progress[value]{
   background-color: orangered;
-  border-radius: 30px;
   transition: all 0.2s ease-out;
 }
 
